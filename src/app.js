@@ -13,10 +13,10 @@ window.onload = function() {
 /*Variables excusas*/
 
 window.onload = () => {
-  document.querySelector("#the-excuse").innerHTML = generateExcuse();
+  document.querySelector("#mi-excusa").innerHTML = generarExcusa();
 };
 
-let generateExcuse = () => {
+let generarExcusa = () => {
   let cuando = ["Cuando"];
   let quien = ["mi perro", "mi mejor amigo", "mi jefe", "mi novia"];
   let accion = ["se enfada", "canta", "siempre baila", "grita"];
